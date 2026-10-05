@@ -1,0 +1,82 @@
+.stApp{
+    background-color:#f8f9fa;
+}
+div[role="radiogroup"]{
+    background:white;
+    padding:15px;
+    border-radius:20px;
+    box-shadow:0px 4px 12px rgba(0,0,0,0.08);
+    margin-bottom:20px;
+}
+.card{
+    background:white;
+    border-left:6px solid #ff7b00;
+    border-radius:20px;
+    padding:25px;
+    margin-top:15px;
+    color:#222;
+    box-shadow:0px 8px 20px rgba(0,0,0,0.08);
+    transition:all 0.3s ease;
+}
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0px 12px 25px rgba(0,0,0,0.15);
+}
+.mood-card{
+    background:#fff4e6;
+    border-left:6px solid #ff7b00;
+}
+
+.meditation-card{
+    background:#e7f5ff;
+    border-left:6px solid #339af0;
+}
+
+.streak-card{
+    background:#fff0f6;
+    border-left:6px solid #e64980;
+}
+.quote-card{
+    background:linear-gradient(135deg,#fff7e6,#fff0cc);
+    border-left:6px solid #f59f00;
+}
+.ai-card{
+    background:linear-gradient(135deg,#e8fff3,#d8f3dc);
+    border-left:6px solid #2b9348;
+    border-radius:20px;
+    padding:20px;
+    margin-top:15px;
+    color:#222;
+    box-shadow:0px 6px 15px rgba(0,0,0,0.08);
+}
+.stSuccess{
+    border-radius:15px;
+}
+
+.stInfo{
+    border-radius:15px;
+}
+
+.stWarning{
+    border-radius:15px;
+}
+.stat-card{
+    padding:20px;
+    border-radius:20px;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.orange{
+    background:linear-gradient(135deg,#ff7b00,#ff9e00);
+}
+
+.blue{
+    background:linear-gradient(135deg,#339af0,#4dabf7);
+}
+
+.red{
+    background:linear-gradient(135deg,#e03131,#fa5252);
+}
